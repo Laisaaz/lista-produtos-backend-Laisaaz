@@ -1,0 +1,35 @@
+{
+  "name": "lista-produtos-backend-laisaaz",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/QEFXU29b)",
+  "homepage": "https://github.com/ifmsnv-frameworks/lista-produtos-backend-Laisaaz#readme",
+  "bugs": {
+    "url": "https://github.com/ifmsnv-frameworks/lista-produtos-backend-Laisaaz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifmsnv-frameworks/lista-produtos-backend-Laisaaz.git"
+  },
+  "license": "ISC",
+  "author": "Laisa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "npm i && tsc"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^24.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
